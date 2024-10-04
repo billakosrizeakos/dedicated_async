@@ -30,7 +30,7 @@
  */
 
 module user_project_wrapper #(
-    parameter BITS = 32
+    parameter BITS = 3
 ) (
 `ifdef USE_POWER_PINS
     inout vdda1,	// User area 1 3.3V supply
@@ -78,44 +78,20 @@ module user_project_wrapper #(
     output [2:0] user_irq
 );
 
+
 /*--------------------------------------*/
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-user_proj_example mprj (
+arbiter_proj mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
-
-    // MGMT SoC Wishbone Slave
-
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
-
-    // Logic Analyzer
-
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
-
     // IO Pads
-
-    .io_in ({io_in[37:30],io_in[7:0]}),
-    .io_out({io_out[37:30],io_out[7:0]}),
-    .io_oeb({io_oeb[37:30],io_oeb[7:0]}),
-
-    // IRQ
-    .irq(user_irq)
+    .io_in (io_in[8+BITS-1:8]),
+    .io_out(io_out[8+2*BITS-1:8+BITS]),
+    .io_oeb(io_oeb[8+2*BITS-1:8+BITS])
 );
 
 endmodule	// user_project_wrapper

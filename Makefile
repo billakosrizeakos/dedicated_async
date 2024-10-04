@@ -29,6 +29,10 @@ export PDK?=sky130A
 #export PDK?=gf180mcuC
 export PDKPATH?=$(PDK_ROOT)/$(PDK)
 
+# XSCHEM Location
+export XSCHEM_PATH?=$(PWD)/../aVLSI-SkyWater130-2024/xschem
+export XSCHEM_GL_PATH?=$(PWD)/verilog/gl
+
 PYTHON_BIN ?= python3
 
 ROOTLESS ?= 0
@@ -435,3 +439,13 @@ caravel-sta: ./env/spef-mapping.tcl
 	@echo "You can find results for all corners in $(CUP_ROOT)/signoff/caravel/openlane-signoff/timing/"
 	@echo "Check summary.log of a specific corner to point to reports with reg2reg violations" 
 	@echo "Cap and slew violations are inside summary.log file itself"
+
+# Extract the Verilog netlist from xschem
+.PHONY: extract_xschem_verilog
+extract_xschem_verilog:
+ifndef component
+	$(error component is not set)
+endif
+	cd $(XSCHEM_PATH)
+	xschem $(XSCHEM_PATH)/$(component).sch --netlist --verilog --netlist_filename $(XSCHEM_GL_PATH)/$(component)_extracted.v -q
+	python3 $(UPRJ_ROOT)/add_power_pins.py $(XSCHEM_GL_PATH)/$(component)_extracted.v $(XSCHEM_GL_PATH)/$(component)_extracted.v

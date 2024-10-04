@@ -1,0 +1,72 @@
+library (muller_c_proj) {
+  comment                        : "";
+  delay_model                    : table_lookup;
+  simulation                     : false;
+  capacitive_load_unit (1,pF);
+  leakage_power_unit             : 1pW;
+  current_unit                   : "1A";
+  pulling_resistance_unit        : "1kohm";
+  time_unit                      : "1ns";
+  voltage_unit                   : "1v";
+  library_features(report_delay_calculation);
+
+  input_threshold_pct_rise : 50;
+  input_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  output_threshold_pct_fall : 50;
+  slew_lower_threshold_pct_rise : 20;
+  slew_lower_threshold_pct_fall : 20;
+  slew_upper_threshold_pct_rise : 80;
+  slew_upper_threshold_pct_fall : 80;
+  slew_derate_from_library : 1.0;
+
+
+  nom_process                    : 1.0;
+  nom_temperature                : 25.0;
+  nom_voltage                    : 1.80;
+
+  type ("io_in") {
+    base_type : array;
+    data_type : bit;
+    bit_width : 6;
+    bit_from : 5;
+    bit_to : 0;
+  }
+
+  cell ("muller_c_proj") {
+    pin("io_out") {
+      direction : output;
+      capacitance : 0.0007;
+    }
+    bus("io_in") {
+      bus_type : io_in;
+      direction : input;
+      capacitance : 0.0000;
+    pin("io_in[5]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("io_in[4]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("io_in[3]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("io_in[2]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("io_in[1]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    pin("io_in[0]") {
+      direction : input;
+      capacitance : 0.0029;
+    }
+    }
+  }
+
+}

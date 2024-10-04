@@ -1,0 +1,4 @@
+initial
+
+state 0
+assume (= [io_in] #b1110100)

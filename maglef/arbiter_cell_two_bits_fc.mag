@@ -1,0 +1,70 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1727862611
+<< obsli1 >>
+rect 1104 2159 38824 37553
+<< obsm1 >>
+rect 934 2128 38902 37584
+<< metal2 >>
+rect 19982 39200 20038 40000
+rect 19982 0 20038 800
+<< obsm2 >>
+rect 938 2139 38898 37573
+<< metal3 >>
+rect 0 34552 800 34672
+rect 39200 29656 40000 29776
+rect 0 24760 800 24880
+rect 0 14968 800 15088
+rect 39200 9800 40000 9920
+rect 0 5176 800 5296
+<< obsm3 >>
+rect 798 34752 39200 37569
+rect 880 34472 39200 34752
+rect 798 29856 39200 34472
+rect 798 29576 39120 29856
+rect 798 24960 39200 29576
+rect 880 24680 39200 24960
+rect 798 15168 39200 24680
+rect 880 14888 39200 15168
+rect 798 10000 39200 14888
+rect 798 9720 39120 10000
+rect 798 5376 39200 9720
+rect 880 5096 39200 5376
+rect 798 2143 39200 5096
+<< metal4 >>
+rect 4208 2128 4528 37584
+rect 19568 2128 19888 37584
+rect 34928 2128 35248 37584
+<< labels >>
+rlabel metal2 s 19982 0 20038 800 6 GND
+port 1 nsew signal input
+rlabel metal4 s 19568 2128 19888 37584 6 GND
+port 1 nsew signal input
+rlabel metal2 s 19982 39200 20038 40000 6 VDD
+port 2 nsew signal input
+rlabel metal4 s 4208 2128 4528 37584 6 VDD
+port 2 nsew signal input
+rlabel metal4 s 34928 2128 35248 37584 6 VDD
+port 2 nsew signal input
+rlabel metal3 s 0 5176 800 5296 6 g0
+port 3 nsew signal output
+rlabel metal3 s 0 34552 800 34672 6 g1
+port 4 nsew signal output
+rlabel metal3 s 39200 29656 40000 29776 6 gc
+port 5 nsew signal input
+rlabel metal3 s 0 14968 800 15088 6 r0
+port 6 nsew signal input
+rlabel metal3 s 0 24760 800 24880 6 r1
+port 7 nsew signal input
+rlabel metal3 s 39200 9800 40000 9920 6 rc
+port 8 nsew signal output
+<< properties >>
+string FIXED_BBOX 0 0 40000 40000
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 474606
+string GDS_FILE /home/vasilis/Internship/dedicated_async/openlane/arbiter_cell_two_bits_fc_proj/runs/24_10_02_11_49/results/signoff/arbiter_cell_two_bits_fc.magic.gds
+string GDS_START 67870
+<< end >>
+

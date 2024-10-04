@@ -1,0 +1,574 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.45+112 (git sha1 c8b42b7d4, g++ 11.4.0-1ubuntu1~22.04 -fPIC -O3)
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: encoder_proj_formal.v
+Parsing formal SystemVerilog input from `encoder_proj_formal.v' to AST representation.
+Storing AST representation for module `$abstract\encoder_proj'.
+Storing AST representation for module `$abstract\onehot2bin'.
+Storing AST representation for module `$abstract\encoder_proj_formal'.
+Successfully finished Verilog frontend.
+
+2. Executing PREP pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\encoder_proj_formal'.
+Generating RTLIL representation for module `\encoder_proj_formal'.
+Note: Assuming pure combinatorial block at encoder_proj_formal.v:40.5-44.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at encoder_proj_formal.v:51.5-80.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+2.2.1. Analyzing design hierarchy..
+Top module:  \encoder_proj_formal
+Parameter \N = 64
+
+2.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\onehot2bin'.
+Parameter \N = 64
+Generating RTLIL representation for module `$paramod\onehot2bin\N=s32'00000000000000000000000001000000'.
+Note: Assuming pure combinatorial block at encoder_proj.v:43.5-50.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+2.2.3. Analyzing design hierarchy..
+Top module:  \encoder_proj_formal
+Used module:     $paramod\onehot2bin\N=s32'00000000000000000000000001000000
+
+2.2.4. Analyzing design hierarchy..
+Top module:  \encoder_proj_formal
+Used module:     $paramod\onehot2bin\N=s32'00000000000000000000000001000000
+Removing unused module `$abstract\encoder_proj_formal'.
+Removing unused module `$abstract\onehot2bin'.
+Removing unused module `$abstract\encoder_proj'.
+Removed 3 unused modules.
+Module encoder_proj_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+2.3. Executing PROC pass (convert processes to netlists).
+
+2.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 66 switch rules as full_case in process $proc$encoder_proj_formal.v:51$22 in module encoder_proj_formal.
+Marked 1 switch rules as full_case in process $proc$encoder_proj_formal.v:40$7 in module encoder_proj_formal.
+Marked 64 switch rules as full_case in process $proc$encoder_proj.v:43$728 in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+Removed a total of 0 dead cases.
+
+2.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 188 redundant assignments.
+Promoted 195 assignments to connections.
+
+2.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\encoder_proj_formal.$proc$encoder_proj_formal.v:0$726'.
+  Set init value: \signal_count = 0
+
+2.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~131 debug messages>
+
+2.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\encoder_proj_formal.$proc$encoder_proj_formal.v:0$726'.
+Creating decoders for process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22'.
+     1/67: $64\signal_count[31:0]
+     2/67: $63\signal_count[31:0]
+     3/67: $62\signal_count[31:0]
+     4/67: $61\signal_count[31:0]
+     5/67: $60\signal_count[31:0]
+     6/67: $59\signal_count[31:0]
+     7/67: $58\signal_count[31:0]
+     8/67: $57\signal_count[31:0]
+     9/67: $56\signal_count[31:0]
+    10/67: $55\signal_count[31:0]
+    11/67: $54\signal_count[31:0]
+    12/67: $53\signal_count[31:0]
+    13/67: $52\signal_count[31:0]
+    14/67: $51\signal_count[31:0]
+    15/67: $50\signal_count[31:0]
+    16/67: $49\signal_count[31:0]
+    17/67: $48\signal_count[31:0]
+    18/67: $47\signal_count[31:0]
+    19/67: $46\signal_count[31:0]
+    20/67: $45\signal_count[31:0]
+    21/67: $44\signal_count[31:0]
+    22/67: $43\signal_count[31:0]
+    23/67: $42\signal_count[31:0]
+    24/67: $41\signal_count[31:0]
+    25/67: $40\signal_count[31:0]
+    26/67: $39\signal_count[31:0]
+    27/67: $38\signal_count[31:0]
+    28/67: $37\signal_count[31:0]
+    29/67: $36\signal_count[31:0]
+    30/67: $35\signal_count[31:0]
+    31/67: $34\signal_count[31:0]
+    32/67: $33\signal_count[31:0]
+    33/67: $32\signal_count[31:0]
+    34/67: $31\signal_count[31:0]
+    35/67: $30\signal_count[31:0]
+    36/67: $29\signal_count[31:0]
+    37/67: $28\signal_count[31:0]
+    38/67: $27\signal_count[31:0]
+    39/67: $26\signal_count[31:0]
+    40/67: $25\signal_count[31:0]
+    41/67: $24\signal_count[31:0]
+    42/67: $23\signal_count[31:0]
+    43/67: $22\signal_count[31:0]
+    44/67: $21\signal_count[31:0]
+    45/67: $20\signal_count[31:0]
+    46/67: $19\signal_count[31:0]
+    47/67: $18\signal_count[31:0]
+    48/67: $17\signal_count[31:0]
+    49/67: $16\signal_count[31:0]
+    50/67: $15\signal_count[31:0]
+    51/67: $14\signal_count[31:0]
+    52/67: $13\signal_count[31:0]
+    53/67: $12\signal_count[31:0]
+    54/67: $11\signal_count[31:0]
+    55/67: $10\signal_count[31:0]
+    56/67: $9\signal_count[31:0]
+    57/67: $8\signal_count[31:0]
+    58/67: $7\signal_count[31:0]
+    59/67: $6\signal_count[31:0]
+    60/67: $5\signal_count[31:0]
+    61/67: $4\signal_count[31:0]
+    62/67: $3\signal_count[31:0]
+    63/67: $2\signal_count[31:0]
+    64/67: $1\signal_count[31:0]
+    65/67: \op_multiple_EN
+    66/67: \op_normal_EN
+    67/67: \op_noop_EN
+Creating decoders for process `\encoder_proj_formal.$proc$encoder_proj_formal.v:40$7'.
+     1/2: $1\decoded_out[63:0]
+     2/2: $1$bitselwrite$pos$encoder_proj_formal.v:43$6[5:0]$10
+Creating decoders for process `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.$proc$encoder_proj.v:43$728'.
+     1/64: $64\out[5:0]
+     2/64: $63\out[5:0]
+     3/64: $62\out[5:0]
+     4/64: $61\out[5:0]
+     5/64: $60\out[5:0]
+     6/64: $59\out[5:0]
+     7/64: $58\out[5:0]
+     8/64: $57\out[5:0]
+     9/64: $56\out[5:0]
+    10/64: $55\out[5:0]
+    11/64: $54\out[5:0]
+    12/64: $53\out[5:0]
+    13/64: $52\out[5:0]
+    14/64: $51\out[5:0]
+    15/64: $50\out[5:0]
+    16/64: $49\out[5:0]
+    17/64: $48\out[5:0]
+    18/64: $47\out[5:0]
+    19/64: $46\out[5:0]
+    20/64: $45\out[5:0]
+    21/64: $44\out[5:0]
+    22/64: $43\out[5:0]
+    23/64: $42\out[5:0]
+    24/64: $41\out[5:0]
+    25/64: $40\out[5:0]
+    26/64: $39\out[5:0]
+    27/64: $38\out[5:0]
+    28/64: $37\out[5:0]
+    29/64: $36\out[5:0]
+    30/64: $35\out[5:0]
+    31/64: $34\out[5:0]
+    32/64: $33\out[5:0]
+    33/64: $32\out[5:0]
+    34/64: $31\out[5:0]
+    35/64: $30\out[5:0]
+    36/64: $29\out[5:0]
+    37/64: $28\out[5:0]
+    38/64: $27\out[5:0]
+    39/64: $26\out[5:0]
+    40/64: $25\out[5:0]
+    41/64: $24\out[5:0]
+    42/64: $23\out[5:0]
+    43/64: $22\out[5:0]
+    44/64: $21\out[5:0]
+    45/64: $20\out[5:0]
+    46/64: $19\out[5:0]
+    47/64: $18\out[5:0]
+    48/64: $17\out[5:0]
+    49/64: $16\out[5:0]
+    50/64: $15\out[5:0]
+    51/64: $14\out[5:0]
+    52/64: $13\out[5:0]
+    53/64: $12\out[5:0]
+    54/64: $11\out[5:0]
+    55/64: $10\out[5:0]
+    56/64: $9\out[5:0]
+    57/64: $8\out[5:0]
+    58/64: $7\out[5:0]
+    59/64: $6\out[5:0]
+    60/64: $5\out[5:0]
+    61/64: $4\out[5:0]
+    62/64: $3\out[5:0]
+    63/64: $2\out[5:0]
+    64/64: $1\out[5:0]
+
+2.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\encoder_proj_formal.\int_i' from process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22'.
+No latch inferred for signal `\encoder_proj_formal.\signal_count' from process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22'.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [0]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [1]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [2]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [3]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [4]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [5]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [6]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [7]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [8]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [9]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [10]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [11]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [12]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [13]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [14]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [15]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [16]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [17]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [18]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [19]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [20]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [21]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [22]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [23]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [24]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [25]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [26]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [27]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [28]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [29]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [30]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+Removing init bit 1'0 for non-memory siginal `\encoder_proj_formal.\signal_count [31]` in process `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22`.
+No latch inferred for signal `\encoder_proj_formal.\decoded_out' from process `\encoder_proj_formal.$proc$encoder_proj_formal.v:40$7'.
+No latch inferred for signal `\encoder_proj_formal.$bitselwrite$pos$encoder_proj_formal.v:43$6' from process `\encoder_proj_formal.$proc$encoder_proj_formal.v:40$7'.
+No latch inferred for signal `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.\out' from process `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.$proc$encoder_proj.v:43$728'.
+No latch inferred for signal `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.\i' from process `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.$proc$encoder_proj.v:43$728'.
+
+2.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+2.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `encoder_proj_formal.$proc$encoder_proj_formal.v:0$726'.
+Found and cleaned up 66 empty switches in `\encoder_proj_formal.$proc$encoder_proj_formal.v:51$22'.
+Removing empty process `encoder_proj_formal.$proc$encoder_proj_formal.v:51$22'.
+Found and cleaned up 1 empty switch in `\encoder_proj_formal.$proc$encoder_proj_formal.v:40$7'.
+Removing empty process `encoder_proj_formal.$proc$encoder_proj_formal.v:40$7'.
+Found and cleaned up 64 empty switches in `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.$proc$encoder_proj.v:43$728'.
+Removing empty process `$paramod\onehot2bin\N=s32'00000000000000000000000001000000.$proc$encoder_proj.v:43$728'.
+Cleaned up 131 empty switches.
+
+2.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module encoder_proj_formal.
+<suppressed ~321 debug messages>
+Optimizing module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+
+2.4. Executing FUTURE pass.
+
+2.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module encoder_proj_formal.
+Optimizing module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+
+2.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \encoder_proj_formal..
+Finding unused cells or wires in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+Removed 4 unused cells and 784 unused wires.
+<suppressed ~6 debug messages>
+
+2.7. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\onehot2bin\N=s32'00000000000000000000000001000000...
+Checking module encoder_proj_formal...
+Found and reported 0 problems.
+
+2.8. Executing OPT pass (performing simple optimizations).
+
+2.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+Optimizing module encoder_proj_formal.
+
+2.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\onehot2bin\N=s32'00000000000000000000000001000000'.
+Finding identical cells in module `\encoder_proj_formal'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+2.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \encoder_proj_formal..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~69 debug messages>
+
+2.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+  Optimizing cells in module \encoder_proj_formal.
+Performed a total of 0 changes.
+
+2.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\onehot2bin\N=s32'00000000000000000000000001000000'.
+Finding identical cells in module `\encoder_proj_formal'.
+Removed a total of 0 cells.
+
+2.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+Finding unused cells or wires in module \encoder_proj_formal..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+2.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+Optimizing module encoder_proj_formal.
+
+2.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \encoder_proj_formal..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~69 debug messages>
+
+2.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+  Optimizing cells in module \encoder_proj_formal.
+Performed a total of 0 changes.
+
+2.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\onehot2bin\N=s32'00000000000000000000000001000000'.
+Finding identical cells in module `\encoder_proj_formal'.
+Removed a total of 0 cells.
+
+2.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+Finding unused cells or wires in module \encoder_proj_formal..
+
+2.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+Optimizing module encoder_proj_formal.
+
+2.8.14. Finished OPT passes. (There is nothing left to do.)
+
+2.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 5 bits (of 6) from mux cell $paramod\onehot2bin\N=s32'00000000000000000000000001000000.$procmux$1129 ($mux).
+Removed top 5 bits (of 6) from wire $paramod\onehot2bin\N=s32'00000000000000000000000001000000.$2\out[5:0].
+Converting cell encoder_proj_formal.$neg$encoder_proj_formal.v:0$15 ($neg) from signed to unsigned.
+Removed top 1 bits (of 7) from port A of cell encoder_proj_formal.$neg$encoder_proj_formal.v:0$15 ($neg).
+Removed top 31 bits (of 32) from port B of cell encoder_proj_formal.$ge$encoder_proj_formal.v:48$19 ($ge).
+Removed top 31 bits (of 32) from port B of cell encoder_proj_formal.$ge$encoder_proj_formal.v:49$20 ($ge).
+Removed top 24 bits (of 32) from port B of cell encoder_proj_formal.$le$encoder_proj_formal.v:50$21 ($le).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$642 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$643 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$644 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$645 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$646 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$647 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$648 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$649 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$650 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$651 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$652 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$653 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$654 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$655 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$656 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$657 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$658 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$659 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$660 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$661 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$662 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$663 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$664 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$665 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$666 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$667 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$668 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$669 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$670 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$671 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$672 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$673 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$674 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$675 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$676 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$677 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$678 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$679 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$680 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$681 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$682 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$683 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$684 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$685 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$686 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$687 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$688 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$689 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$690 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$691 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$692 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$693 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$694 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$695 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$696 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$697 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$698 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$699 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$700 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$701 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$702 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$703 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$add$encoder_proj_formal.v:71$704 ($add).
+Removed top 30 bits (of 32) from port B of cell encoder_proj_formal.$eq$encoder_proj_formal.v:76$713 ($eq).
+Removed top 31 bits (of 32) from port B of cell encoder_proj_formal.$gt$encoder_proj_formal.v:79$720 ($gt).
+Removed top 31 bits (of 32) from mux cell encoder_proj_formal.$procmux$919 ($mux).
+Removed top 31 bits (of 32) from wire encoder_proj_formal.$1\signal_count[31:0].
+
+2.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+Finding unused cells or wires in module \encoder_proj_formal..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~2 debug messages>
+
+2.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.12. Executing OPT pass (performing simple optimizations).
+
+2.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\onehot2bin\N=s32'00000000000000000000000001000000.
+Optimizing module encoder_proj_formal.
+
+2.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\onehot2bin\N=s32'00000000000000000000000001000000'.
+Finding identical cells in module `\encoder_proj_formal'.
+Removed a total of 0 cells.
+
+2.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\onehot2bin\N=s32'00000000000000000000000001000000..
+Finding unused cells or wires in module \encoder_proj_formal..
+
+2.12.4. Finished fast OPT passes.
+
+2.13. Printing statistics.
+
+=== $paramod\onehot2bin\N=s32'00000000000000000000000001000000 ===
+
+   Number of wires:                 66
+   Number of wire bits:            470
+   Number of public wires:           4
+   Number of public wire bits:     103
+   Number of ports:                  3
+   Number of port bits:             71
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 64
+     $mux                           63
+     $reduce_or                      1
+
+=== encoder_proj_formal ===
+
+   Number of wires:                286
+   Number of wire bits:           4550
+   Number of public wires:          12
+   Number of public wire bits:     332
+   Number of ports:                  2
+   Number of port bits:            128
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                475
+     $add                           63
+     $check                        194
+     $eq                             3
+     $ge                             2
+     $gt                             2
+     $le                             1
+     $logic_and                    130
+     $logic_not                      4
+     $lt                             1
+     $mux                           70
+     $neg                            1
+     $not                            1
+     $paramod\onehot2bin\N=s32'00000000000000000000000001000000      1
+     $shift                          1
+     $sub                            1
+
+=== design hierarchy ===
+
+   encoder_proj_formal               1
+     $paramod\onehot2bin\N=s32'00000000000000000000000001000000      1
+
+   Number of wires:                352
+   Number of wire bits:           5020
+   Number of public wires:          16
+   Number of public wire bits:     435
+   Number of ports:                  5
+   Number of port bits:            199
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                538
+     $add                           63
+     $check                        194
+     $eq                             3
+     $ge                             2
+     $gt                             2
+     $le                             1
+     $logic_and                    130
+     $logic_not                      4
+     $lt                             1
+     $mux                          133
+     $neg                            1
+     $not                            1
+     $reduce_or                      1
+     $shift                          1
+     $sub                            1
+
+2.14. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\onehot2bin\N=s32'00000000000000000000000001000000...
+Checking module encoder_proj_formal...
+Found and reported 0 problems.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \encoder_proj_formal
+Used module:     $paramod\onehot2bin\N=s32'00000000000000000000000001000000
+
+3.2. Analyzing design hierarchy..
+Top module:  \encoder_proj_formal
+Used module:     $paramod\onehot2bin\N=s32'00000000000000000000000001000000
+Removed 0 unused modules.
+Module encoder_proj_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4. Executing jny backend.
+
+5. Executing RTLIL backend.
+Output filename: ../model/design.il
+
+End of script. Logfile hash: 6aa4ea1ed2, CPU: user 0.22s system 0.01s, MEM: 22.62 MB peak
+Yosys 0.45+112 (git sha1 c8b42b7d4, g++ 11.4.0-1ubuntu1~22.04 -fPIC -O3)
+Time spent: 24% 2x check (0 sec), 21% 5x opt_clean (0 sec), ...

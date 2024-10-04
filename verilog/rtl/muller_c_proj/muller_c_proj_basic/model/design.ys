@@ -1,0 +1,8 @@
+# running in muller_c_proj_basic/src/
+read -formal muller_c_proj_formal.v
+prep -top muller_c_proj_formal
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

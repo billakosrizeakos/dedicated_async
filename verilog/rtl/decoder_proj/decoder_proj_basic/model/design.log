@@ -1,0 +1,433 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.45+112 (git sha1 c8b42b7d4, g++ 11.4.0-1ubuntu1~22.04 -fPIC -O3)
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: decoder_proj_formal.v
+Parsing formal SystemVerilog input from `decoder_proj_formal.v' to AST representation.
+Storing AST representation for module `$abstract\decoder_proj'.
+Storing AST representation for module `$abstract\bin2onehot'.
+Storing AST representation for module `$abstract\decoder_proj_formal'.
+Successfully finished Verilog frontend.
+
+2. Executing PREP pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\decoder_proj_formal'.
+Generating RTLIL representation for module `\decoder_proj_formal'.
+Note: Assuming pure combinatorial block at decoder_proj_formal.v:32.5-39.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at decoder_proj_formal.v:43.5-50.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+2.2.1. Analyzing design hierarchy..
+Top module:  \decoder_proj_formal
+Parameter \k = 6
+
+2.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\bin2onehot'.
+Parameter \k = 6
+Generating RTLIL representation for module `$paramod\bin2onehot\k=s32'00000000000000000000000000000110'.
+
+2.2.3. Analyzing design hierarchy..
+Top module:  \decoder_proj_formal
+Used module:     $paramod\bin2onehot\k=s32'00000000000000000000000000000110
+
+2.2.4. Analyzing design hierarchy..
+Top module:  \decoder_proj_formal
+Used module:     $paramod\bin2onehot\k=s32'00000000000000000000000000000110
+Removing unused module `$abstract\decoder_proj_formal'.
+Removing unused module `$abstract\bin2onehot'.
+Removing unused module `$abstract\decoder_proj'.
+Removed 3 unused modules.
+Module decoder_proj_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+2.3. Executing PROC pass (convert processes to netlists).
+
+2.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 64 switch rules as full_case in process $proc$decoder_proj_formal.v:32$3 in module decoder_proj_formal.
+Removed a total of 0 dead cases.
+
+2.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 66 redundant assignments.
+Promoted 69 assignments to connections.
+
+2.3.4. Executing PROC_INIT pass (extract init attributes).
+
+2.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~64 debug messages>
+
+2.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\decoder_proj_formal.$proc$decoder_proj_formal.v:43$5'.
+Creating decoders for process `\decoder_proj_formal.$proc$decoder_proj_formal.v:32$3'.
+     1/64: $64\encoded_out[63:0]
+     2/64: $63\encoded_out[63:0]
+     3/64: $62\encoded_out[63:0]
+     4/64: $61\encoded_out[63:0]
+     5/64: $60\encoded_out[63:0]
+     6/64: $59\encoded_out[63:0]
+     7/64: $58\encoded_out[63:0]
+     8/64: $57\encoded_out[63:0]
+     9/64: $56\encoded_out[63:0]
+    10/64: $55\encoded_out[63:0]
+    11/64: $54\encoded_out[63:0]
+    12/64: $53\encoded_out[63:0]
+    13/64: $52\encoded_out[63:0]
+    14/64: $51\encoded_out[63:0]
+    15/64: $50\encoded_out[63:0]
+    16/64: $49\encoded_out[63:0]
+    17/64: $48\encoded_out[63:0]
+    18/64: $47\encoded_out[63:0]
+    19/64: $46\encoded_out[63:0]
+    20/64: $45\encoded_out[63:0]
+    21/64: $44\encoded_out[63:0]
+    22/64: $43\encoded_out[63:0]
+    23/64: $42\encoded_out[63:0]
+    24/64: $41\encoded_out[63:0]
+    25/64: $40\encoded_out[63:0]
+    26/64: $39\encoded_out[63:0]
+    27/64: $38\encoded_out[63:0]
+    28/64: $37\encoded_out[63:0]
+    29/64: $36\encoded_out[63:0]
+    30/64: $35\encoded_out[63:0]
+    31/64: $34\encoded_out[63:0]
+    32/64: $33\encoded_out[63:0]
+    33/64: $32\encoded_out[63:0]
+    34/64: $31\encoded_out[63:0]
+    35/64: $30\encoded_out[63:0]
+    36/64: $29\encoded_out[63:0]
+    37/64: $28\encoded_out[63:0]
+    38/64: $27\encoded_out[63:0]
+    39/64: $26\encoded_out[63:0]
+    40/64: $25\encoded_out[63:0]
+    41/64: $24\encoded_out[63:0]
+    42/64: $23\encoded_out[63:0]
+    43/64: $22\encoded_out[63:0]
+    44/64: $21\encoded_out[63:0]
+    45/64: $20\encoded_out[63:0]
+    46/64: $19\encoded_out[63:0]
+    47/64: $18\encoded_out[63:0]
+    48/64: $17\encoded_out[63:0]
+    49/64: $16\encoded_out[63:0]
+    50/64: $15\encoded_out[63:0]
+    51/64: $14\encoded_out[63:0]
+    52/64: $13\encoded_out[63:0]
+    53/64: $12\encoded_out[63:0]
+    54/64: $11\encoded_out[63:0]
+    55/64: $10\encoded_out[63:0]
+    56/64: $9\encoded_out[63:0]
+    57/64: $8\encoded_out[63:0]
+    58/64: $7\encoded_out[63:0]
+    59/64: $6\encoded_out[63:0]
+    60/64: $5\encoded_out[63:0]
+    61/64: $4\encoded_out[63:0]
+    62/64: $3\encoded_out[63:0]
+    63/64: $2\encoded_out[63:0]
+    64/64: $1\encoded_out[63:0]
+
+2.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\decoder_proj_formal.\i' from process `\decoder_proj_formal.$proc$decoder_proj_formal.v:43$5'.
+No latch inferred for signal `\decoder_proj_formal.\i' from process `\decoder_proj_formal.$proc$decoder_proj_formal.v:32$3'.
+No latch inferred for signal `\decoder_proj_formal.\encoded_out' from process `\decoder_proj_formal.$proc$decoder_proj_formal.v:32$3'.
+
+2.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+2.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `decoder_proj_formal.$proc$decoder_proj_formal.v:43$5'.
+Found and cleaned up 64 empty switches in `\decoder_proj_formal.$proc$decoder_proj_formal.v:32$3'.
+Removing empty process `decoder_proj_formal.$proc$decoder_proj_formal.v:32$3'.
+Cleaned up 64 empty switches.
+
+2.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module decoder_proj_formal.
+<suppressed ~6 debug messages>
+Optimizing module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+<suppressed ~1 debug messages>
+
+2.4. Executing FUTURE pass.
+
+2.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module decoder_proj_formal.
+Optimizing module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+
+2.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \decoder_proj_formal..
+Finding unused cells or wires in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+Removed 0 unused cells and 261 unused wires.
+<suppressed ~2 debug messages>
+
+2.7. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\bin2onehot\k=s32'00000000000000000000000000000110...
+Checking module decoder_proj_formal...
+Found and reported 0 problems.
+
+2.8. Executing OPT pass (performing simple optimizations).
+
+2.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+Optimizing module decoder_proj_formal.
+
+2.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\bin2onehot\k=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\decoder_proj_formal'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+2.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \decoder_proj_formal..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~1 debug messages>
+
+2.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+  Optimizing cells in module \decoder_proj_formal.
+Performed a total of 0 changes.
+
+2.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\bin2onehot\k=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\decoder_proj_formal'.
+Removed a total of 0 cells.
+
+2.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \decoder_proj_formal..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+2.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+Optimizing module decoder_proj_formal.
+
+2.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \decoder_proj_formal..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~1 debug messages>
+
+2.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+  Optimizing cells in module \decoder_proj_formal.
+Performed a total of 0 changes.
+
+2.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\bin2onehot\k=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\decoder_proj_formal'.
+Removed a total of 0 cells.
+
+2.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \decoder_proj_formal..
+
+2.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+Optimizing module decoder_proj_formal.
+
+2.8.14. Finished OPT passes. (There is nothing left to do.)
+
+2.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 5 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$144 ($eq).
+Removed top 4 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$146 ($eq).
+Removed top 4 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$148 ($eq).
+Removed top 3 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$150 ($eq).
+Removed top 3 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$152 ($eq).
+Removed top 3 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$154 ($eq).
+Removed top 3 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$156 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$158 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$160 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$162 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$164 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$166 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$168 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$170 ($eq).
+Removed top 2 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$172 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$174 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$176 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$178 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$180 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$182 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$184 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$186 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$188 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$190 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$192 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$194 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$196 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$198 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$200 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$202 ($eq).
+Removed top 1 bits (of 6) from port B of cell $paramod\bin2onehot\k=s32'00000000000000000000000000000110.$eq$decoder_proj.v:42$204 ($eq).
+Removed top 5 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$9 ($eq).
+Removed top 4 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$11 ($eq).
+Removed top 4 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$13 ($eq).
+Removed top 3 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$15 ($eq).
+Removed top 3 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$17 ($eq).
+Removed top 3 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$19 ($eq).
+Removed top 3 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$21 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$23 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$25 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$27 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$29 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$31 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$33 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$35 ($eq).
+Removed top 2 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$37 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$39 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$41 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$43 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$45 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$47 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$49 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$51 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$53 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$55 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$57 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$59 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$61 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$63 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$65 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$67 ($eq).
+Removed top 1 bits (of 6) from port B of cell decoder_proj_formal.$eq$decoder_proj_formal.v:45$69 ($eq).
+Removed top 63 bits (of 64) from mux cell decoder_proj_formal.$procmux$457 ($mux).
+Removed top 63 bits (of 64) from wire decoder_proj_formal.$2\encoded_out[63:0].
+
+2.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \decoder_proj_formal..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+2.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.12. Executing OPT pass (performing simple optimizations).
+
+2.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\bin2onehot\k=s32'00000000000000000000000000000110.
+Optimizing module decoder_proj_formal.
+
+2.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\bin2onehot\k=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\decoder_proj_formal'.
+Removed a total of 0 cells.
+
+2.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\bin2onehot\k=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \decoder_proj_formal..
+
+2.12.4. Finished fast OPT passes.
+
+2.13. Printing statistics.
+
+=== $paramod\bin2onehot\k=s32'00000000000000000000000000000110 ===
+
+   Number of wires:                 67
+   Number of wire bits:            135
+   Number of public wires:           3
+   Number of public wire bits:      71
+   Number of ports:                  3
+   Number of port bits:             71
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                128
+     $and                           64
+     $eq                            63
+     $logic_not                      1
+
+=== decoder_proj_formal ===
+
+   Number of wires:                139
+   Number of wire bits:           4182
+   Number of public wires:           8
+   Number of public wire bits:     208
+   Number of ports:                  2
+   Number of port bits:             71
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                202
+     $check                         68
+     $eq                            64
+     $logic_not                      2
+     $logic_or                       2
+     $mux                           63
+     $not                            1
+     $paramod\bin2onehot\k=s32'00000000000000000000000000000110      1
+     $sub                            1
+
+=== design hierarchy ===
+
+   decoder_proj_formal               1
+     $paramod\bin2onehot\k=s32'00000000000000000000000000000110      1
+
+   Number of wires:                206
+   Number of wire bits:           4317
+   Number of public wires:          11
+   Number of public wire bits:     279
+   Number of ports:                  5
+   Number of port bits:            142
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                329
+     $and                           64
+     $check                         68
+     $eq                           127
+     $logic_not                      3
+     $logic_or                       2
+     $mux                           63
+     $not                            1
+     $sub                            1
+
+2.14. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\bin2onehot\k=s32'00000000000000000000000000000110...
+Checking module decoder_proj_formal...
+Found and reported 0 problems.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \decoder_proj_formal
+Used module:     $paramod\bin2onehot\k=s32'00000000000000000000000000000110
+
+3.2. Analyzing design hierarchy..
+Top module:  \decoder_proj_formal
+Used module:     $paramod\bin2onehot\k=s32'00000000000000000000000000000110
+Removed 0 unused modules.
+Module decoder_proj_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4. Executing jny backend.
+
+5. Executing RTLIL backend.
+Output filename: ../model/design.il
+
+End of script. Logfile hash: a37e22c72e, CPU: user 0.15s system 0.02s, MEM: 21.79 MB peak
+Yosys 0.45+112 (git sha1 c8b42b7d4, g++ 11.4.0-1ubuntu1~22.04 -fPIC -O3)
+Time spent: 27% 5x opt_clean (0 sec), 12% 2x check (0 sec), ...

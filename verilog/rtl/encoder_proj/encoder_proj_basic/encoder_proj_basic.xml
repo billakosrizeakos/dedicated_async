@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-09-20T13:37:27" hostname="vasilis" package="encoder_proj" id="0" name="basic" tests="194" errors="0" failures="0" time="18" skipped="188">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="basic" name="build execution" time="0">
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_100">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_102">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_104">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_106">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_108">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_110">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_112">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_114">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_116">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_118">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_120">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_122">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_124">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_126">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_128">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_130">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_132">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_134">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_136">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_138">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_140">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_142">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_144">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_146">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_148">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_150">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_24">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_26">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_28">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_30">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_32">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_34">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_36">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_38">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_40">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_42">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_44">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_46">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_48">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_50">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_52">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_54">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_56">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_58">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_60">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_62">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_64">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_66">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_68">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_70">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_72">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_74">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_76">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_78">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_80">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_82">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_84">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_86">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_88">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_90">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_92">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_94">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_96">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_98">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_152">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_156">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_160">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_164">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_168">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_172">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_176">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_180">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_184">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_188">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_192">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_196">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_200">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_204">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_208">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_212">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_216">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_220">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_224">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_228">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_232">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_236">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_240">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_244">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_248">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_252">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_256">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_260">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_264">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_268">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_272">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_276">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_280">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_284">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_288">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_292">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_296">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_300">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_304">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_308">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_312">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_316">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_320">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_324">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_328">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_332">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_336">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_340">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_344">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_348">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_352">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_356">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_360">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_364">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_368">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_372">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_376">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_380">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_384">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_388">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_392">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_396">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_400">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_404">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_408">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_412">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_416">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_420">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_424">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_428">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_432">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_436">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_440">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_444">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_448">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_452">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_456">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_460">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_464">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_468">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_472">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_476">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_480">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_484">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_488">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_492">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_496">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_500">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_504">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_508">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_512">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_516">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_520">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_524">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_528">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_532">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_536">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_540">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_544">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_548">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_552">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_556">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_560">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_564">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_568">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_572">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_576">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_580">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_584">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_588">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_592">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_596">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_600">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_604">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_608">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_612">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_616">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_620">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_624">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_628">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_632">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_636">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:50.5-50.50" time="0" type="ASSERT" location="encoder_proj_formal.v:50.5-50.50" id="count_ov">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:49.5-49.50" time="0" type="ASSERT" location="encoder_proj_formal.v:49.5-49.50" id="count_uv">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:48.5-48.47" time="0" type="ASSERT" location="encoder_proj_formal.v:48.5-48.47" id="diff_positive">
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:53.9-53.49" time="0" type="COVER" location="encoder_proj_formal.v:53.9-53.49" id="input_empty">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:66.9-66.56" time="0" type="COVER" location="encoder_proj_formal.v:66.9-66.56" id="input_full">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:79.13-79.115" time="0" type="ASSERT" location="encoder_proj_formal.v:79.13-79.115" id="op_multiple">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:75.13-75.101" time="0" type="ASSERT" location="encoder_proj_formal.v:75.13-75.101" id="op_noop">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:77.13-77.93" time="0" type="ASSERT" location="encoder_proj_formal.v:77.13-77.93" id="op_normal">
+</testcase>
+<system-out>SBY 13:37:09 [encoder_proj_basic] Removing directory '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_basic'.
+SBY 13:37:09 [encoder_proj_basic] Copy '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_formal.v' to '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_basic/src/encoder_proj_formal.v'.
+SBY 13:37:09 [encoder_proj_basic] Copy '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj.v' to '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_basic/src/encoder_proj.v'.
+SBY 13:37:09 [encoder_proj_basic] engine_0: smtbmc boolector
+SBY 13:37:09 [encoder_proj_basic] base: starting process &quot;cd encoder_proj_basic/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 13:37:09 [encoder_proj_basic] base: finished (returncode=0)
+SBY 13:37:09 [encoder_proj_basic] prep: starting process &quot;cd encoder_proj_basic/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 13:37:09 [encoder_proj_basic] prep: finished (returncode=0)
+SBY 13:37:09 [encoder_proj_basic] smt2: starting process &quot;cd encoder_proj_basic/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 13:37:09 [encoder_proj_basic] smt2: finished (returncode=0)
+SBY 13:37:09 [encoder_proj_basic] engine_0: starting process &quot;cd encoder_proj_basic; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 20  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY 13:37:09 [encoder_proj_basic] engine_0: ##   0:00:00  Solver: boolector
+SBY 13:37:09 [encoder_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 13:37:09 [encoder_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 13:37:10 [encoder_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 13:37:10 [encoder_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 13:37:10 [encoder_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 13:37:10 [encoder_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 13:37:11 [encoder_proj_basic] engine_0: ##   0:00:01  Checking assumptions in step 3..
+SBY 13:37:11 [encoder_proj_basic] engine_0: ##   0:00:01  Checking assertions in step 3..
+SBY 13:37:11 [encoder_proj_basic] engine_0: ##   0:00:01  Checking assumptions in step 4..
+SBY 13:37:11 [encoder_proj_basic] engine_0: ##   0:00:01  Checking assertions in step 4..
+SBY 13:37:11 [encoder_proj_basic] engine_0: ##   0:00:01  Checking assumptions in step 5..
+SBY 13:37:12 [encoder_proj_basic] engine_0: ##   0:00:02  Checking assertions in step 5..
+SBY 13:37:12 [encoder_proj_basic] engine_0: ##   0:00:02  Checking assumptions in step 6..
+SBY 13:37:12 [encoder_proj_basic] engine_0: ##   0:00:02  Checking assertions in step 6..
+SBY 13:37:13 [encoder_proj_basic] engine_0: ##   0:00:03  Checking assumptions in step 7..
+SBY 13:37:13 [encoder_proj_basic] engine_0: ##   0:00:03  Checking assertions in step 7..
+SBY 13:37:13 [encoder_proj_basic] engine_0: ##   0:00:04  Checking assumptions in step 8..
+SBY 13:37:14 [encoder_proj_basic] engine_0: ##   0:00:04  Checking assertions in step 8..
+SBY 13:37:14 [encoder_proj_basic] engine_0: ##   0:00:04  Checking assumptions in step 9..
+SBY 13:37:15 [encoder_proj_basic] engine_0: ##   0:00:05  Checking assertions in step 9..
+SBY 13:37:15 [encoder_proj_basic] engine_0: ##   0:00:05  Checking assumptions in step 10..
+SBY 13:37:16 [encoder_proj_basic] engine_0: ##   0:00:06  Checking assertions in step 10..
+SBY 13:37:16 [encoder_proj_basic] engine_0: ##   0:00:06  Checking assumptions in step 11..
+SBY 13:37:16 [encoder_proj_basic] engine_0: ##   0:00:06  Checking assertions in step 11..
+SBY 13:37:17 [encoder_proj_basic] engine_0: ##   0:00:07  Checking assumptions in step 12..
+SBY 13:37:18 [encoder_proj_basic] engine_0: ##   0:00:08  Checking assertions in step 12..
+SBY 13:37:18 [encoder_proj_basic] engine_0: ##   0:00:08  Checking assumptions in step 13..
+SBY 13:37:18 [encoder_proj_basic] engine_0: ##   0:00:08  Checking assertions in step 13..
+SBY 13:37:19 [encoder_proj_basic] engine_0: ##   0:00:09  Checking assumptions in step 14..
+SBY 13:37:20 [encoder_proj_basic] engine_0: ##   0:00:10  Checking assertions in step 14..
+SBY 13:37:20 [encoder_proj_basic] engine_0: ##   0:00:10  Checking assumptions in step 15..
+SBY 13:37:21 [encoder_proj_basic] engine_0: ##   0:00:11  Checking assertions in step 15..
+SBY 13:37:22 [encoder_proj_basic] engine_0: ##   0:00:12  Checking assumptions in step 16..
+SBY 13:37:22 [encoder_proj_basic] engine_0: ##   0:00:12  Checking assertions in step 16..
+SBY 13:37:23 [encoder_proj_basic] engine_0: ##   0:00:13  Checking assumptions in step 17..
+SBY 13:37:24 [encoder_proj_basic] engine_0: ##   0:00:14  Checking assertions in step 17..
+SBY 13:37:24 [encoder_proj_basic] engine_0: ##   0:00:14  Checking assumptions in step 18..
+SBY 13:37:25 [encoder_proj_basic] engine_0: ##   0:00:15  Checking assertions in step 18..
+SBY 13:37:25 [encoder_proj_basic] engine_0: ##   0:00:15  Checking assumptions in step 19..
+SBY 13:37:26 [encoder_proj_basic] engine_0: ##   0:00:16  Checking assertions in step 19..
+SBY 13:37:27 [encoder_proj_basic] engine_0: ##   0:00:17  Status: passed
+SBY 13:37:27 [encoder_proj_basic] engine_0: finished (returncode=0)
+SBY 13:37:27 [encoder_proj_basic] engine_0: Status returned by engine: pass
+SBY 13:37:27 [encoder_proj_basic] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:17 (17)
+SBY 13:37:27 [encoder_proj_basic] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:18 (18)
+SBY 13:37:27 [encoder_proj_basic] summary: engine_0 (smtbmc boolector) returned pass
+SBY 13:37:27 [encoder_proj_basic] summary: engine_0 did not produce any traces
+SBY 13:37:27 [encoder_proj_basic] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-09-19T16:45:55" hostname="vasilis" package="muller_c_proj" id="0" name="basic" tests="69" errors="0" failures="0" time="0" skipped="64">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="basic" name="build execution" time="0">
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_101">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_103">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_105">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_107">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_109">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_111">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_113">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_115">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_117">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_119">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_121">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_123">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_125">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_127">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_129">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_131">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_133">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_135">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_137">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_139">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_141">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_143">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_145">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_147">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_149">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_151">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_153">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_155">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_157">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_159">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_161">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_163">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_165">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_39">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_41">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_43">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_45">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_47">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_49">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_51">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_53">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_55">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_57">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_59">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_61">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_63">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_65">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_67">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_69">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_71">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_73">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_75">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_77">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_79">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_81">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_83">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_85">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_87">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_89">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_91">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_93">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_95">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_97">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property COVER in muller_c_proj_formal at muller_c_proj_formal.v:28.41-29.40" time="0" type="COVER" location="muller_c_proj_formal.v:28.41-29.40" id="_witness_.check_cover_muller_c_proj_formal_v_28_99">
+<skipped />
+</testcase>
+<testcase classname="basic" name="Property ASSERT in muller_c_proj_formal at muller_c_proj_formal.v:35.9-35.92" time="0" type="ASSERT" location="muller_c_proj_formal.v:35.9-35.92" id="transition_0_to_0">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in muller_c_proj_formal at muller_c_proj_formal.v:36.9-36.91" time="0" type="ASSERT" location="muller_c_proj_formal.v:36.9-36.91" id="transition_0_to_1">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in muller_c_proj_formal at muller_c_proj_formal.v:37.9-37.91" time="0" type="ASSERT" location="muller_c_proj_formal.v:37.9-37.91" id="transition_1_to_0">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in muller_c_proj_formal at muller_c_proj_formal.v:38.9-38.90" time="0" type="ASSERT" location="muller_c_proj_formal.v:38.9-38.90" id="transition_1_to_1">
+</testcase>
+<testcase classname="basic" name="Property ASSERT in muller_c_proj_formal at muller_c_proj_formal.v:39.9-39.104" time="0" type="ASSERT" location="muller_c_proj_formal.v:39.9-39.104" id="transition_stay">
+</testcase>
+<system-out>SBY 16:45:55 [muller_c_proj_basic] Removing directory '/home/vasilis/Internship/dedicated_async/verilog/rtl/muller_c_proj/muller_c_proj_basic'.
+SBY 16:45:55 [muller_c_proj_basic] Copy '/home/vasilis/Internship/dedicated_async/verilog/rtl/muller_c_proj/muller_c_proj_formal.v' to '/home/vasilis/Internship/dedicated_async/verilog/rtl/muller_c_proj/muller_c_proj_basic/src/muller_c_proj_formal.v'.
+SBY 16:45:55 [muller_c_proj_basic] Copy '/home/vasilis/Internship/dedicated_async/verilog/rtl/muller_c_proj/muller_c_proj.v' to '/home/vasilis/Internship/dedicated_async/verilog/rtl/muller_c_proj/muller_c_proj_basic/src/muller_c_proj.v'.
+SBY 16:45:55 [muller_c_proj_basic] engine_0: smtbmc boolector
+SBY 16:45:55 [muller_c_proj_basic] base: starting process &quot;cd muller_c_proj_basic/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 16:45:55 [muller_c_proj_basic] base: finished (returncode=0)
+SBY 16:45:55 [muller_c_proj_basic] prep: starting process &quot;cd muller_c_proj_basic/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 16:45:55 [muller_c_proj_basic] prep: finished (returncode=0)
+SBY 16:45:55 [muller_c_proj_basic] smt2: starting process &quot;cd muller_c_proj_basic/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 16:45:55 [muller_c_proj_basic] smt2: finished (returncode=0)
+SBY 16:45:55 [muller_c_proj_basic] engine_0: starting process &quot;cd muller_c_proj_basic; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 20  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Solver: boolector
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 9..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 10..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 10..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 11..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 11..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 12..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 12..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 13..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 13..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 14..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 14..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 15..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 15..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 16..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 16..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 17..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 17..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 18..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 18..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assumptions in step 19..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Checking assertions in step 19..
+SBY 16:45:55 [muller_c_proj_basic] engine_0: ##   0:00:00  Status: passed
+SBY 16:45:55 [muller_c_proj_basic] engine_0: finished (returncode=0)
+SBY 16:45:55 [muller_c_proj_basic] engine_0: Status returned by engine: pass
+SBY 16:45:55 [muller_c_proj_basic] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 16:45:55 [muller_c_proj_basic] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 16:45:55 [muller_c_proj_basic] summary: engine_0 (smtbmc boolector) returned pass
+SBY 16:45:55 [muller_c_proj_basic] summary: engine_0 did not produce any traces
+SBY 16:45:55 [muller_c_proj_basic] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

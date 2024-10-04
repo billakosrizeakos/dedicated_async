@@ -1,0 +1,275 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "user_project_wrapper")
+ (DATE "Fri Oct  4 14:02:45 2024")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.4.0")
+ (DIVIDER .)
+ (VOLTAGE 1.600::1.600)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 100.000::100.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "user_project_wrapper")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT io_in[10] mprj.input3.A (0.027:0.027:0.027) (0.027:0.027:0.027))
+    (INTERCONNECT io_in[9] mprj.input2.A (0.050:0.050:0.050) (0.050:0.050:0.050))
+    (INTERCONNECT io_in[8] mprj.input1.A (0.043:0.043:0.043) (0.043:0.043:0.043))
+    (INTERCONNECT mprj._3_.X mprj.ANTENNA_output4_A.DIODE (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT mprj._3_.X mprj.output4.A (0.003:0.003:0.003) (0.002:0.002:0.002))
+    (INTERCONNECT mprj._4_.X mprj.output5.A (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT mprj._5_.X mprj.output6.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT mprj.arbiter\.x1.Y mprj.arbiter\.x7.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x1.Y mprj.arbiter\.x8.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x1.Y mprj.arbiter\.x8.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x1.Y mprj.arbiter\.x8.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x1.Y mprj.arbiter\.x8.D (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x10.Y mprj.arbiter\.x12.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x11.Y mprj.arbiter\.x12.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x12.Y mprj._5_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x2.X mprj.arbiter\.x7.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x3.Y mprj._3_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x4.X mprj.arbiter\.x11.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x4.X mprj.arbiter\.x3.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x5.Y mprj.arbiter\.x3.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x5.Y mprj.arbiter\.x9.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x6.X mprj.arbiter\.x1.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x7.Y mprj.arbiter\.x1.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT mprj.arbiter\.x7.Y mprj.arbiter\.x4.A (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT mprj.arbiter\.x7.Y mprj.arbiter\.x4.B (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT mprj.arbiter\.x7.Y mprj.arbiter\.x4.C (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT mprj.arbiter\.x7.Y mprj.arbiter\.x4.D (0.001:0.001:0.001) (0.001:0.001:0.001))
+    (INTERCONNECT mprj.arbiter\.x8.X mprj.arbiter\.x10.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x8.X mprj.arbiter\.x9.B (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter\.x9.Y mprj._4_.A (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter_proj_7.LO io_oeb[11] (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter_proj_8.LO io_oeb[12] (0.000:0.000:0.000))
+    (INTERCONNECT mprj.arbiter_proj_9.LO io_oeb[13] (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input1.X mprj.ANTENNA_arbiter\.x10_B.DIODE (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT mprj.input1.X mprj.ANTENNA_arbiter\.x2_A.DIODE (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT mprj.input1.X mprj.arbiter\.x10.B (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT mprj.input1.X mprj.arbiter\.x2.A (0.003:0.003:0.003) (0.003:0.003:0.003))
+    (INTERCONNECT mprj.input2.X mprj.ANTENNA_arbiter\.x11_B.DIODE (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT mprj.input2.X mprj.ANTENNA_arbiter\.x6_B.DIODE (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT mprj.input2.X mprj.arbiter\.x11.B (0.003:0.003:0.003) (0.002:0.002:0.002))
+    (INTERCONNECT mprj.input2.X mprj.arbiter\.x6.B (0.002:0.002:0.002) (0.002:0.002:0.002))
+    (INTERCONNECT mprj.input3.X mprj.ANTENNA_arbiter\.x2_B.DIODE (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT mprj.input3.X mprj.ANTENNA_arbiter\.x5_A.DIODE (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT mprj.input3.X mprj.ANTENNA_arbiter\.x6_A.DIODE (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT mprj.input3.X mprj.arbiter\.x2.B (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT mprj.input3.X mprj.arbiter\.x5.A (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT mprj.input3.X mprj.arbiter\.x6.A (0.005:0.005:0.005) (0.005:0.005:0.005))
+    (INTERCONNECT mprj.output4.X io_out[11] (0.057:0.057:0.057) (0.057:0.057:0.057))
+    (INTERCONNECT mprj.output5.X io_out[12] (0.039:0.039:0.039) (0.039:0.039:0.039))
+    (INTERCONNECT mprj.output6.X io_out[13] (0.024:0.024:0.024) (0.024:0.024:0.024))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_2")
+  (INSTANCE mprj._3_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.307:0.308:0.309) (0.260:0.262:0.263))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_1")
+  (INSTANCE mprj._4_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.317:0.319:0.321) (0.237:0.239:0.240))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_1")
+  (INSTANCE mprj._5_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.302:0.305:0.308) (0.256:0.256:0.257))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2_1")
+  (INSTANCE mprj.arbiter\.x1)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.215:0.215:0.215) (0.218:0.218:0.218))
+    (IOPATH B Y (0.188:0.188:0.189) (0.185:0.186:0.187))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2_1")
+  (INSTANCE mprj.arbiter\.x10)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.162:0.162:0.162) (0.118:0.118:0.119))
+    (IOPATH B Y (0.178:0.178:0.178) (0.207:0.207:0.207))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2_1")
+  (INSTANCE mprj.arbiter\.x11)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.165:0.165:0.165) (0.120:0.120:0.121))
+    (IOPATH B Y (0.197:0.197:0.198) (0.237:0.237:0.237))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2_1")
+  (INSTANCE mprj.arbiter\.x12)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.090:0.094:0.098) (0.097:0.098:0.099))
+    (IOPATH B Y (0.102:0.109:0.116) (0.107:0.110:0.112))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__or2_1")
+  (INSTANCE mprj.arbiter\.x2)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.290:0.290:0.290) (0.576:0.576:0.576))
+    (IOPATH B X (0.258:0.258:0.259) (0.535:0.535:0.536))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nor2_1")
+  (INSTANCE mprj.arbiter\.x3)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.220:0.221:0.221) (0.092:0.093:0.093))
+    (IOPATH B Y (0.146:0.146:0.146) (0.083:0.083:0.083))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__or4_1")
+  (INSTANCE mprj.arbiter\.x4)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.254:0.254:0.254) (1.304:1.304:1.304))
+    (IOPATH B X (0.253:0.253:0.253) (1.268:1.268:1.268))
+    (IOPATH C X (0.250:0.250:0.250) (1.197:1.197:1.197))
+    (IOPATH D X (0.245:0.245:0.245) (1.052:1.052:1.052))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_1")
+  (INSTANCE mprj.arbiter\.x5)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.172:0.173:0.173) (0.169:0.170:0.170))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__or2_1")
+  (INSTANCE mprj.arbiter\.x6)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.245:0.245:0.245) (0.548:0.549:0.549))
+    (IOPATH B X (0.300:0.300:0.299) (0.533:0.533:0.534))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2_1")
+  (INSTANCE mprj.arbiter\.x7)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.184:0.184:0.184) (0.184:0.184:0.184))
+    (IOPATH B Y (0.000:0.000:0.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__or4_1")
+  (INSTANCE mprj.arbiter\.x8)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.254:0.255:0.256) (1.299:1.300:1.300))
+    (IOPATH B X (0.254:0.254:0.255) (1.263:1.263:1.264))
+    (IOPATH C X (0.250:0.251:0.252) (1.193:1.193:1.194))
+    (IOPATH D X (0.246:0.246:0.247) (1.047:1.048:1.048))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nor2_1")
+  (INSTANCE mprj.arbiter\.x9)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.169:0.169:0.169) (0.093:0.093:0.093))
+    (IOPATH B Y (0.193:0.193:0.194) (0.081:0.081:0.082))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dlymetal6s2s_1")
+  (INSTANCE mprj.input1)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.390:0.450:0.510) (0.438:0.519:0.600))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_1")
+  (INSTANCE mprj.input2)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.455:0.505:0.556) (0.364:0.428:0.492))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_2")
+  (INSTANCE mprj.input3)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.346:0.414:0.482) (0.331:0.401:0.471))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__clkbuf_4")
+  (INSTANCE mprj.output4)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.233:1.233:1.233) (0.999:0.999:0.999))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_2")
+  (INSTANCE mprj.output5)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.651:1.651:1.651) (1.071:1.071:1.071))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_2")
+  (INSTANCE mprj.output6)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (1.434:1.435:1.435) (0.957:0.957:0.957))
+   )
+  )
+ )
+)

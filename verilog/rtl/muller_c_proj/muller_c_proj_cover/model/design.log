@@ -1,0 +1,350 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.45+112 (git sha1 c8b42b7d4, g++ 11.4.0-1ubuntu1~22.04 -fPIC -O3)
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: muller_c_proj_formal.v
+Parsing formal SystemVerilog input from `muller_c_proj_formal.v' to AST representation.
+Storing AST representation for module `$abstract\muller_c'.
+Storing AST representation for module `$abstract\muller_c_proj'.
+Storing AST representation for module `$abstract\muller_c_proj_formal'.
+Successfully finished Verilog frontend.
+
+2. Executing PREP pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\muller_c_proj_formal'.
+Generating RTLIL representation for module `\muller_c_proj_formal'.
+Note: Assuming pure combinatorial block at muller_c_proj_formal.v:34.5-40.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+2.2.1. Analyzing design hierarchy..
+Top module:  \muller_c_proj_formal
+Parameter \N = 6
+
+2.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\muller_c'.
+Parameter \N = 6
+Generating RTLIL representation for module `$paramod\muller_c\N=s32'00000000000000000000000000000110'.
+Note: Assuming pure combinatorial block at muller_c_proj.v:27.5-35.8 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+2.2.3. Analyzing design hierarchy..
+Top module:  \muller_c_proj_formal
+Used module:     $paramod\muller_c\N=s32'00000000000000000000000000000110
+
+2.2.4. Analyzing design hierarchy..
+Top module:  \muller_c_proj_formal
+Used module:     $paramod\muller_c\N=s32'00000000000000000000000000000110
+Removing unused module `$abstract\muller_c_proj_formal'.
+Removing unused module `$abstract\muller_c_proj'.
+Removing unused module `$abstract\muller_c'.
+Removed 3 unused modules.
+Module muller_c_proj_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+2.3. Executing PROC pass (convert processes to netlists).
+
+2.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 2 switch rules as full_case in process $proc$muller_c_proj.v:27$169 in module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+Removed a total of 0 dead cases.
+
+2.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 5 redundant assignments.
+Promoted 7 assignments to connections.
+
+2.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:0$172'.
+  Set init value: \out_prev = 1'0
+Found init rule in `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:0$171'.
+  Set init value: \out = 1'0
+
+2.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~2 debug messages>
+
+2.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\muller_c_proj_formal.$proc$muller_c_proj_formal.v:34$3'.
+Creating decoders for process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:0$172'.
+Creating decoders for process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:0$171'.
+Creating decoders for process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:27$169'.
+     1/2: $0\out[0:0]
+     2/2: $0\out_prev[0:0]
+
+2.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+Latch inferred for signal `$paramod\muller_c\N=s32'00000000000000000000000000000110.\out_prev' from process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:27$169': $auto$proc_dlatch.cc:433:proc_dlatch$205
+Latch inferred for signal `$paramod\muller_c\N=s32'00000000000000000000000000000110.\out' from process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:27$169': $auto$proc_dlatch.cc:433:proc_dlatch$224
+
+2.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+2.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `muller_c_proj_formal.$proc$muller_c_proj_formal.v:34$3'.
+Removing empty process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:0$172'.
+Removing empty process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:0$171'.
+Found and cleaned up 2 empty switches in `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:27$169'.
+Removing empty process `$paramod\muller_c\N=s32'00000000000000000000000000000110.$proc$muller_c_proj.v:27$169'.
+Cleaned up 2 empty switches.
+
+2.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module muller_c_proj_formal.
+<suppressed ~12 debug messages>
+Optimizing module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+<suppressed ~18 debug messages>
+
+2.4. Executing FUTURE pass.
+
+2.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module muller_c_proj_formal.
+Optimizing module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+
+2.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \muller_c_proj_formal..
+Finding unused cells or wires in module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+Removed 6 unused cells and 38 unused wires.
+<suppressed ~8 debug messages>
+
+2.7. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\muller_c\N=s32'00000000000000000000000000000110...
+Checking module muller_c_proj_formal...
+Found and reported 0 problems.
+
+2.8. Executing OPT pass (performing simple optimizations).
+
+2.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+Optimizing module muller_c_proj_formal.
+
+2.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\muller_c\N=s32'00000000000000000000000000000110'.
+<suppressed ~3 debug messages>
+Finding identical cells in module `\muller_c_proj_formal'.
+<suppressed ~31 debug messages>
+Removed a total of 12 cells.
+
+2.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \muller_c_proj_formal..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~1 debug messages>
+
+2.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+  Optimizing cells in module \muller_c_proj_formal.
+Performed a total of 0 changes.
+
+2.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\muller_c\N=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\muller_c_proj_formal'.
+Removed a total of 0 cells.
+
+2.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \muller_c_proj_formal..
+Removed 0 unused cells and 10 unused wires.
+<suppressed ~2 debug messages>
+
+2.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+Optimizing module muller_c_proj_formal.
+
+2.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+2.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \muller_c_proj_formal..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~1 debug messages>
+
+2.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+  Optimizing cells in module \muller_c_proj_formal.
+Performed a total of 0 changes.
+
+2.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\muller_c\N=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\muller_c_proj_formal'.
+Removed a total of 0 cells.
+
+2.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \muller_c_proj_formal..
+
+2.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+Optimizing module muller_c_proj_formal.
+
+2.8.14. Finished OPT passes. (There is nothing left to do.)
+
+2.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 5 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$42 ($eq).
+Removed top 4 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$44 ($eq).
+Removed top 4 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$46 ($eq).
+Removed top 3 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$48 ($eq).
+Removed top 3 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$50 ($eq).
+Removed top 3 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$52 ($eq).
+Removed top 3 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$54 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$56 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$58 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$60 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$62 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$64 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$66 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$68 ($eq).
+Removed top 2 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$70 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$72 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$74 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$76 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$78 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$80 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$82 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$84 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$86 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$88 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$90 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$92 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$94 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$96 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$98 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$100 ($eq).
+Removed top 1 bits (of 6) from port B of cell muller_c_proj_formal.$eq$muller_c_proj_formal.v:29$102 ($eq).
+
+2.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \muller_c_proj_formal..
+
+2.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.12. Executing OPT pass (performing simple optimizations).
+
+2.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod\muller_c\N=s32'00000000000000000000000000000110.
+Optimizing module muller_c_proj_formal.
+
+2.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod\muller_c\N=s32'00000000000000000000000000000110'.
+Finding identical cells in module `\muller_c_proj_formal'.
+Removed a total of 0 cells.
+
+2.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod\muller_c\N=s32'00000000000000000000000000000110..
+Finding unused cells or wires in module \muller_c_proj_formal..
+
+2.12.4. Finished fast OPT passes.
+
+2.13. Printing statistics.
+
+=== $paramod\muller_c\N=s32'00000000000000000000000000000110 ===
+
+   Number of wires:                 11
+   Number of wire bits:             16
+   Number of public wires:           5
+   Number of public wire bits:      10
+   Number of ports:                  3
+   Number of port bits:              8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 10
+     $and                            2
+     $dlatch                         2
+     $logic_not                      1
+     $mux                            1
+     $not                            1
+     $reduce_and                     1
+     $reduce_or                      2
+
+=== muller_c_proj_formal ===
+
+   Number of wires:                 89
+   Number of wire bits:             94
+   Number of public wires:           8
+   Number of public wire bits:      13
+   Number of ports:                  3
+   Number of port bits:              8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                151
+     $check                         69
+     $eq                            64
+     $logic_not                      4
+     $not                            1
+     $or                            10
+     $paramod\muller_c\N=s32'00000000000000000000000000000110      1
+     $reduce_and                     1
+     $reduce_or                      1
+
+=== design hierarchy ===
+
+   muller_c_proj_formal              1
+     $paramod\muller_c\N=s32'00000000000000000000000000000110      1
+
+   Number of wires:                100
+   Number of wire bits:            110
+   Number of public wires:          13
+   Number of public wire bits:      23
+   Number of ports:                  6
+   Number of port bits:             16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                160
+     $and                            2
+     $check                         69
+     $dlatch                         2
+     $eq                            64
+     $logic_not                      5
+     $mux                            1
+     $not                            2
+     $or                            10
+     $reduce_and                     2
+     $reduce_or                      3
+
+2.14. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod\muller_c\N=s32'00000000000000000000000000000110...
+Checking module muller_c_proj_formal...
+Found and reported 0 problems.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \muller_c_proj_formal
+Used module:     $paramod\muller_c\N=s32'00000000000000000000000000000110
+
+3.2. Analyzing design hierarchy..
+Top module:  \muller_c_proj_formal
+Used module:     $paramod\muller_c\N=s32'00000000000000000000000000000110
+Removed 0 unused modules.
+Module muller_c_proj_formal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4. Executing jny backend.
+
+5. Executing RTLIL backend.
+Output filename: ../model/design.il
+
+End of script. Logfile hash: 77af7f3ad9, CPU: user 0.04s system 0.01s, MEM: 17.88 MB peak
+Yosys 0.45+112 (git sha1 c8b42b7d4, g++ 11.4.0-1ubuntu1~22.04 -fPIC -O3)
+Time spent: 21% 2x hierarchy (0 sec), 19% 6x opt_expr (0 sec), ...

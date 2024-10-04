@@ -1,0 +1,393 @@
+##   0:00:00  Solver: boolector
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at enable_off in step 0.
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_6) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace0.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace0_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace0.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace0.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at enable_on in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace1.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace1_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace1.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace1.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_96) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace2.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace2_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace2.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace2.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_98) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace3.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace3_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace3.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace3.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_114) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace4.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace4_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace4.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace4.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_106) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace5.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace5_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace5.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace5.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_34) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace6.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace6_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace6.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace6.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_10) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace7.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace7_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace7.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace7.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_42) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace8.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace8_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace8.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace8.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_122) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace9.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace9_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace9.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace9.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_74) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace10.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace10_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace10.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace10.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_90) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace11.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace11_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace11.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace11.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_26) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace12.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace12_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace12.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace12.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_82) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace13.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace13_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace13.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace13.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_130) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace14.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace14_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace14.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace14.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_66) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace15.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace15_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace15.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace15.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_18) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace16.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace16_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace16.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace16.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_58) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace17.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace17_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace17.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace17.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_50) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace18.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace18_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace18.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace18.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_116) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace19.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace19_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace19.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace19.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_100) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace20.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace20_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace20.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace20.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_12) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace21.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace21_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace21.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace21.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_108) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace22.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace22_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace22.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace22.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_92) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace23.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace23_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace23.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace23.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_124) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace24.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace24_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace24.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace24.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_76) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace25.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace25_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace25.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace25.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_84) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace26.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace26_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace26.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace26.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_132) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace27.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace27_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace27.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace27.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_68) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace28.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace28_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace28.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace28.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_20) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace29.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace29_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace29.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace29.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_28) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace30.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace30_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace30.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace30.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_36) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace31.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace31_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace31.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace31.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_52) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace32.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace32_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace32.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace32.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_60) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace33.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace33_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace33.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace33.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_44) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace34.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace34_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace34.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace34.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_104) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace35.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace35_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace35.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace35.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_112) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace36.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace36_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace36.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace36.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_120) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace37.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace37_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace37.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace37.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_88) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace38.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace38_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace38.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace38.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_102) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace39.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace39_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace39.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace39.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_110) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace40.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace40_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace40.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace40.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_118) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace41.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace41_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace41.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace41.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_86) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace42.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace42_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace42.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace42.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_126) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace43.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace43_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace43.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace43.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_94) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace44.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace44_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace44.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace44.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_70) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace45.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace45_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace45.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace45.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_8) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace46.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace46_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace46.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace46.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_78) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace47.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace47_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace47.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace47.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_80) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace48.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace48_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace48.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace48.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_72) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace49.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace49_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace49.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace49.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_14) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace50.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace50_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace50.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace50.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_22) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace51.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace51_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace51.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace51.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_30) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace52.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace52_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace52.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace52.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_38) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace53.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace53_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace53.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace53.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_54) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace54.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace54_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace54.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace54.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_46) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace55.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace55_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace55.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace55.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_128) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace56.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace56_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace56.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace56.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_32) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace57.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace57_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace57.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace57.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_16) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace58.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace58_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace58.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace58.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_24) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace59.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace59_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace59.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace59.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_64) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace60.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace60_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace60.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace60.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_56) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace61.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace61_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace61.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace61.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_48) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace62.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace62_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace62.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace62.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_40) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace63.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace63_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace63.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace63.yw
+##   0:00:00  Checking cover reachability in step 0..
+##   0:00:00  Reached cover statement at decoder_proj_formal.v:45.13-45.47 (_witness_.check_cover_decoder_proj_formal_v_45_62) in step 0.
+##   0:00:00  Writing trace to VCD file: engine_0/trace64.vcd
+##   0:00:00  Writing trace to Verilog testbench: engine_0/trace64_tb.v
+##   0:00:00  Writing trace to constraints file: engine_0/trace64.smtc
+##   0:00:00  Writing trace to Yosys witness file: engine_0/trace64.yw
+##   0:00:00  Status: passed

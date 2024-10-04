@@ -1,0 +1,13 @@
+[options]
+mode bmc
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal decoder_proj_formal.v
+prep -top decoder_proj_formal
+
+[files]
+decoder_proj_formal.v
+decoder_proj.v

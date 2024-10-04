@@ -1,0 +1,13 @@
+[options]
+mode bmc
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal muller_c_proj_formal.v
+prep -top muller_c_proj_formal
+
+[files]
+muller_c_proj_formal.v
+muller_c_proj.v

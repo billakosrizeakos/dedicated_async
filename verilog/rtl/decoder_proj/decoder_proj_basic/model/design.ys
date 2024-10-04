@@ -1,0 +1,8 @@
+# running in decoder_proj_basic/src/
+read -formal decoder_proj_formal.v
+prep -top decoder_proj_formal
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

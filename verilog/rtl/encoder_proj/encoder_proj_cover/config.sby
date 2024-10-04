@@ -1,0 +1,13 @@
+[options]
+mode cover
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal encoder_proj_formal.v
+prep -top encoder_proj_formal
+
+[files]
+encoder_proj_formal.v
+encoder_proj.v

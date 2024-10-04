@@ -1,0 +1,134 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:01 (1)
+Elapsed process time [H:MM:SS (secs)]: 0:00:01 (1)
+engine_0 (smtbmc boolector) returned pass
+cover trace: engine_0/trace0.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_6 at decoder_proj_formal.v:45.13-45.47 in step 0
+  reached cover statement decoder_proj_formal.enable_off at decoder_proj_formal.v:49.9-49.54 in step 0
+cover trace: engine_0/trace1.vcd
+  reached cover statement decoder_proj_formal.enable_on at decoder_proj_formal.v:48.9-48.53 in step 0
+cover trace: engine_0/trace10.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_74 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace11.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_90 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace12.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_26 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace13.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_82 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace14.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_130 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace15.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_66 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace16.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_18 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace17.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_58 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace18.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_50 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace19.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_116 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace2.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_96 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace20.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_100 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace21.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_12 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace22.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_108 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace23.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_92 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace24.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_124 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace25.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_76 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace26.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_84 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace27.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_132 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace28.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_68 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace29.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_20 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace3.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_98 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace30.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_28 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace31.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_36 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace32.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_52 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace33.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_60 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace34.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_44 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace35.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_104 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace36.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_112 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace37.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_120 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace38.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_88 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace39.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_102 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace4.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_114 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace40.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_110 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace41.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_118 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace42.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_86 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace43.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_126 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace44.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_94 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace45.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_70 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace46.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_8 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace47.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_78 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace48.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_80 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace49.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_72 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace5.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_106 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace50.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_14 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace51.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_22 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace52.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_30 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace53.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_38 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace54.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_54 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace55.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_46 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace56.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_128 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace57.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_32 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace58.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_16 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace59.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_24 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace6.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_34 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace60.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_64 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace61.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_56 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace62.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_48 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace63.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_40 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace64.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_62 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace7.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_10 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace8.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_42 at decoder_proj_formal.v:45.13-45.47 in step 0
+cover trace: engine_0/trace9.vcd
+  reached cover statement decoder_proj_formal._witness_.check_cover_decoder_proj_formal_v_45_122 at decoder_proj_formal.v:45.13-45.47 in step 0

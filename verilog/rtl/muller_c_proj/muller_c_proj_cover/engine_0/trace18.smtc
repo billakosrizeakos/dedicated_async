@@ -1,0 +1,6 @@
+initial
+assume (= [c_element.$auto$async2sync.cc:262:execute$225] false)
+assume (= [c_element.$auto$async2sync.cc:262:execute$228] false)
+
+state 0
+assume (= [io_in] #b011111)

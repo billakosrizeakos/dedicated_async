@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-09-20T13:37:10" hostname="vasilis" package="encoder_proj" id="0" name="cover" tests="194" errors="0" failures="0" time="0" skipped="6">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="cover" name="build execution" time="0">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_100" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_102" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_104" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_106" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_108" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_110" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_112" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_114" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_116" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_118" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_120" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_122" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_124" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_126" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_128" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_130" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_132" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_134" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_136" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_138" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_140" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_142" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_144" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_146" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_148" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_150" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_24" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_26" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_28" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_30" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_32" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_34" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_36" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_38" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_40" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_42" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_44" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_46" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_48" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_50" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_52" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_54" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_56" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_58" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_60" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_62" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_64" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_66" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_68" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_70" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_72" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_74" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_76" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_78" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_80" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_82" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_84" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_86" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_88" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_90" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_92" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_94" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_96" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:56.13-56.47" time="0" type="COVER" location="encoder_proj_formal.v:56.13-56.47" id="_witness_.check_cover_encoder_proj_formal_v_56_98" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_152" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_156" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_160" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_164" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_168" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_172" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_176" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_180" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_184" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_188" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_192" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_196" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_200" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_204" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_208" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_212" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_216" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_220" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_224" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_228" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_232" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_236" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_240" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_244" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_248" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_252" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_256" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_260" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_264" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_268" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_272" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_276" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_280" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_284" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_288" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_292" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_296" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_300" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_304" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_308" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_312" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_316" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_320" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_324" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_328" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_332" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_336" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_340" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_344" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_348" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_352" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_356" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_360" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_364" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_368" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_372" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_376" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_380" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_384" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_388" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_392" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:60.13-60.70" time="0" type="COVER" location="encoder_proj_formal.v:60.13-60.70" id="_witness_.check_cover_encoder_proj_formal_v_60_396" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_400" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_404" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_408" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_412" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_416" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_420" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_424" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_428" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_432" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_436" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_440" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_444" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_448" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_452" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_456" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_460" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_464" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_468" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_472" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_476" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_480" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_484" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_488" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_492" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_496" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_500" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_504" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_508" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_512" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_516" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_520" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_524" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_528" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_532" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_536" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_540" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_544" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_548" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_552" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_556" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_560" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_564" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_568" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_572" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_576" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_580" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_584" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_588" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_592" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_596" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_600" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_604" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_608" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_612" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_616" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_620" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_624" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_628" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_632" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:63.13-63.70" time="0" type="COVER" location="encoder_proj_formal.v:63.13-63.70" id="_witness_.check_cover_encoder_proj_formal_v_63_636" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:50.5-50.50" time="0" type="ASSERT" location="encoder_proj_formal.v:50.5-50.50" id="count_ov">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:49.5-49.50" time="0" type="ASSERT" location="encoder_proj_formal.v:49.5-49.50" id="count_uv">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:48.5-48.47" time="0" type="ASSERT" location="encoder_proj_formal.v:48.5-48.47" id="diff_positive">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:53.9-53.49" time="0" type="COVER" location="encoder_proj_formal.v:53.9-53.49" id="input_empty" tracefile="engine_0/trace1.vcd">
+</testcase>
+<testcase classname="cover" name="Property COVER in encoder_proj_formal at encoder_proj_formal.v:66.9-66.56" time="0" type="COVER" location="encoder_proj_formal.v:66.9-66.56" id="input_full" tracefile="engine_0/trace0.vcd">
+</testcase>
+<testcase classname="cover" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:79.13-79.115" time="0" type="ASSERT" location="encoder_proj_formal.v:79.13-79.115" id="op_multiple">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:75.13-75.101" time="0" type="ASSERT" location="encoder_proj_formal.v:75.13-75.101" id="op_noop">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property ASSERT in encoder_proj_formal at encoder_proj_formal.v:77.13-77.93" time="0" type="ASSERT" location="encoder_proj_formal.v:77.13-77.93" id="op_normal">
+<skipped />
+</testcase>
+<system-out>SBY 13:37:09 [encoder_proj_basic] Removing directory '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_basic'.
+SBY 13:37:09 [encoder_proj_cover] Removing directory '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_cover'.
+SBY 13:37:09 [encoder_proj_cover] Copy '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_formal.v' to '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_cover/src/encoder_proj_formal.v'.
+SBY 13:37:09 [encoder_proj_cover] Copy '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj.v' to '/home/vasilis/Internship/dedicated_async/verilog/rtl/encoder_proj/encoder_proj_cover/src/encoder_proj.v'.
+SBY 13:37:09 [encoder_proj_cover] engine_0: smtbmc boolector
+SBY 13:37:09 [encoder_proj_cover] base: starting process &quot;cd encoder_proj_cover/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 13:37:09 [encoder_proj_cover] base: finished (returncode=0)
+SBY 13:37:09 [encoder_proj_cover] prep: starting process &quot;cd encoder_proj_cover/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 13:37:09 [encoder_proj_cover] prep: finished (returncode=0)
+SBY 13:37:09 [encoder_proj_cover] smt2: starting process &quot;cd encoder_proj_cover/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 13:37:09 [encoder_proj_cover] smt2: finished (returncode=0)
+SBY 13:37:09 [encoder_proj_cover] engine_0: starting process &quot;cd encoder_proj_cover; yosys-smtbmc -s boolector --presat --unroll -c --noprogress -t 20  --append 0 --dump-vcd engine_0/trace%.vcd --dump-yw engine_0/trace%.yw --dump-vlogtb engine_0/trace%_tb.v --dump-smtc engine_0/trace%.smtc model/design_smt2.smt2&quot;
+SBY 13:37:09 [encoder_proj_cover] engine_0: ##   0:00:00  Solver: boolector
+SBY 13:37:09 [encoder_proj_cover] engine_0: ##   0:00:00  Checking cover reachability in step 0..
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at input_full in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_636) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_632) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_628) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_624) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_620) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_616) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_612) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_608) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_604) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_600) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_596) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_592) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_588) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_584) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_580) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_576) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_572) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_568) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_564) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_560) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_556) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_552) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_548) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_544) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_540) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_536) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_532) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_528) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_524) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_520) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_516) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_512) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_508) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_504) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_500) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_496) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_492) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_488) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_484) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_480) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_476) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_472) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_468) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_464) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_460) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_456) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_452) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_448) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_444) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_440) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_436) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_432) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_428) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_424) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_420) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_416) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_412) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_408) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_404) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:63.13-63.70 (_witness_.check_cover_encoder_proj_formal_v_63_400) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_396) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_392) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_388) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_384) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_380) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_376) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_372) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_368) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_364) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_360) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_356) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_352) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_348) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_344) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_340) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_336) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_332) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_328) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_324) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_320) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_316) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_312) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_308) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_304) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_300) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_296) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_292) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_288) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_284) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_280) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_276) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_272) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_268) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_264) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_260) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_256) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_252) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_248) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_244) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_240) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_236) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_232) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_228) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_224) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_220) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_216) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_212) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_208) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_204) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_200) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_196) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_192) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_188) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_184) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_180) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_176) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_172) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_168) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_164) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_160) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_156) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:60.13-60.70 (_witness_.check_cover_encoder_proj_formal_v_60_152) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_98) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_96) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_94) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_92) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_90) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_88) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_86) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_84) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_82) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_80) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_78) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_76) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_74) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_72) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_70) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_68) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_66) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_64) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_62) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_60) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_58) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_56) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_54) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_52) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_50) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_48) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_46) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_44) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_42) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_40) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_38) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_36) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_34) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_32) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_30) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_28) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_26) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_24) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_150) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_148) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_146) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_144) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_142) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_140) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_138) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_136) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_134) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_132) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_130) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_128) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_126) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_124) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_122) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_120) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_118) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_116) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_114) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_112) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_110) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_108) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_106) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_104) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_102) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at encoder_proj_formal.v:56.13-56.47 (_witness_.check_cover_encoder_proj_formal_v_56_100) in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to VCD file: engine_0/trace0.vcd
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to Verilog testbench: engine_0/trace0_tb.v
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to constraints file: engine_0/trace0.smtc
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to Yosys witness file: engine_0/trace0.yw
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Checking cover reachability in step 0..
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Reached cover statement at input_empty in step 0.
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to VCD file: engine_0/trace1.vcd
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to Verilog testbench: engine_0/trace1_tb.v
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to constraints file: engine_0/trace1.smtc
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Writing trace to Yosys witness file: engine_0/trace1.yw
+SBY 13:37:10 [encoder_proj_cover] engine_0: ##   0:00:00  Status: passed
+SBY 13:37:10 [encoder_proj_cover] engine_0: finished (returncode=0)
+SBY 13:37:10 [encoder_proj_cover] engine_0: Status returned by engine: pass
+SBY 13:37:10 [encoder_proj_cover] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 13:37:10 [encoder_proj_cover] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 13:37:10 [encoder_proj_cover] summary: engine_0 (smtbmc boolector) returned pass
+SBY 13:37:10 [encoder_proj_cover] summary: cover trace: encoder_proj_cover/engine_0/trace0.vcd
+SBY 13:37:10 [encoder_proj_cover] summary:   reached cover statement encoder_proj_formal._witness_.check_cover_encoder_proj_formal_v_56_100 at encoder_proj_formal.v:56.13-56.47 in step 0
+SBY 13:37:10 [encoder_proj_cover] summary:   reached cover statement encoder_proj_formal._witness_.check_cover_encoder_proj_formal_v_56_102 at encoder_proj_formal.v:56.13-56.47 in step 0
+SBY 13:37:10 [encoder_proj_cover] summary:   reached cover statement encoder_proj_formal._witness_.check_cover_encoder_proj_formal_v_56_104 at encoder_proj_formal.v:56.13-56.47 in step 0
+SBY 13:37:10 [encoder_proj_cover] summary:   reached cover statement encoder_proj_formal._witness_.check_cover_encoder_proj_formal_v_56_106 at encoder_proj_formal.v:56.13-56.47 in step 0
+SBY 13:37:10 [encoder_proj_cover] summary:   reached cover statement encoder_proj_formal._witness_.check_cover_encoder_proj_formal_v_56_108 at encoder_proj_formal.v:56.13-56.47 in step 0
+SBY 13:37:10 [encoder_proj_cover] summary:   and 182 further cover statements
+SBY 13:37:10 [encoder_proj_cover] summary: cover trace: encoder_proj_cover/engine_0/trace1.vcd
+SBY 13:37:10 [encoder_proj_cover] summary:   reached cover statement encoder_proj_formal.input_empty at encoder_proj_formal.v:53.9-53.49 in step 0
+SBY 13:37:10 [encoder_proj_cover] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>
