@@ -166,7 +166,7 @@ def generate_xschem_sch_from_spice(spice_file, module, output_file):
 
     # Simulation control options
     sch_data += 'C {devices/code_shown.sym} 0 -500 0 0 {name=SPICE only_toplevel=false value="'
-    sch_data += ".TRAN 0.01us 2ms\n.PRINT TRAN format=raw file=arbiter_proj.raw v(*) i(*)\n"
+    sch_data += ".TRAN 0.01us 2ms\n.PRINT TRAN format=raw file=$::netlist_dir/arbiter_proj.raw v(*) i(*)\n"
     sch_data += f".param aVDD = {aVDD_voltage}V\n"
     sch_data += ".options timeint reltol=5e-3 abstol=1e-3 nonlin continuation=gmin\n\"}\n"
 
