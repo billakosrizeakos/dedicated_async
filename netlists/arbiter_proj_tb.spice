@@ -1,0 +1,26 @@
+** sch_path: /home/vasilis/Internship/dedicated_async/xschem/arbiter_proj_tb.sch
+**.subckt arbiter_proj_tb
+V1 aVDD 0 1.8V
+x1 io_in[0] io_in[1] io_in[2] io_out[0] io_out[1] io_out[2] aVDD 0 arbiter_proj
+V2 io_in[0] 0 pulse(1.8V 0 1ns 1us 1us 1us 10ms 1)
+V3 io_in[1] 0 pulse(1.8V 0 1ns 1us 1us 1us 10ms 1)
+V4 io_in[2] 0 pulse(1.8V 0 1ns 1us 1us 1us 10ms 1)
+**** begin user architecture code
+
+.TRAN 0.01us 2ms
+.PRINT TRAN format=raw file=arbiter_proj.raw v(*) i(*)
+.param aVDD = 1.8V
+.options timeint reltol=5e-3 abstol=1e-3 nonlin continuation=gmin
+
+
+
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  arbiter_proj.sym # of pins=8
+** sym_path: /home/vasilis/Internship/dedicated_async/xschem/arbiter_proj.sym
+.include /home/vasilis/Internship/dedicated_async/spi/lvs/arbiter_proj.spice
+.end

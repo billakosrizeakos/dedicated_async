@@ -17,6 +17,7 @@ MAKEFLAGS+=--warn-undefined-variables
 
 export CARAVEL_ROOT?=$(PWD)/caravel
 export UPRJ_ROOT?=$(PWD)
+export SCRIPTS_ROOT?=$(PWD)/scripts
 PRECHECK_ROOT?=${HOME}/mpw_precheck
 export MCW_ROOT?=$(PWD)/mgmt_core_wrapper
 SIM?=RTL
@@ -31,7 +32,9 @@ export PDKPATH?=$(PDK_ROOT)/$(PDK)
 
 # XSCHEM Location
 export XSCHEM_PATH?=$(PWD)/../aVLSI-SkyWater130-2024/xschem
+export XSCHEM_LOC_PATH?=$(PWD)/xschem
 export XSCHEM_GL_PATH?=$(PWD)/verilog/gl
+export SPICE_PATH?=$(PWD)/spi/lvs
 
 PYTHON_BIN ?= python3
 
@@ -448,4 +451,19 @@ ifndef component
 endif
 	cd $(XSCHEM_PATH)
 	xschem $(XSCHEM_PATH)/$(component).sch --netlist --verilog --netlist_filename $(XSCHEM_GL_PATH)/$(component)_extracted.v -q
-	python3 $(UPRJ_ROOT)/add_power_pins.py $(XSCHEM_GL_PATH)/$(component)_extracted.v $(XSCHEM_GL_PATH)/$(component)_extracted.v
+	python3 $(SCRIPTS_ROOT)/add_power_pins.py $(XSCHEM_GL_PATH)/$(component)_extracted.v $(XSCHEM_GL_PATH)/$(component)_extracted.v
+
+.PHONY: spice_verification_flow
+spice_verification_flow: create_component_symbol run_spice_simulation
+
+.PHONY: create_component_symbol
+create_component_symbol:
+ifndef spice_netlist
+	$(error spice netlist is not set)
+endif
+	python3 $(SCRIPTS_ROOT)/symbol_generation.py $(SPICE_PATH)/$(spice_netlist).spice $(XSCHEM_LOC_PATH)/$(spice_netlist).sym
+	python3 $(SCRIPTS_ROOT)/simulate_cell.py $(SPICE_PATH)/$(spice_netlist).spice $(XSCHEM_LOC_PATH)/$(spice_netlist).sym $(XSCHEM_LOC_PATH)/$(spice_netlist)_tb.sch
+
+.PHONY: run_spice_simulation
+run_spice_simulation:
+	@echo "Needs to be implemented"

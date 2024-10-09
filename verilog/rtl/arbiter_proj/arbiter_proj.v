@@ -17,8 +17,7 @@ module arbiter_proj #(
 
     // IOs
     input  wire [BITS-1:0] io_in,
-    output wire [BITS-1:0] io_out,
-    output wire [BITS-1:0] io_oeb
+    output wire [BITS-1:0] io_out
 );
 
     wire r0, r1, gc;
@@ -31,8 +30,6 @@ module arbiter_proj #(
     assign io_out[2] = rc;
     assign io_out[1] = g1;
     assign io_out[0] = g0;
-
-    assign io_oeb = 0;
 
 arbiter_cell_two_bits_fc arbiter (
 `ifdef USE_POWER_PINS

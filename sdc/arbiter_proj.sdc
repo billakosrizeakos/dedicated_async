@@ -1,6 +1,6 @@
 ###############################################################################
 # Created by write_sdc
-# Thu Oct  3 14:12:10 2024
+# Wed Oct  9 09:21:53 2024
 ###############################################################################
 current_design arbiter_proj
 ###############################################################################
@@ -11,18 +11,12 @@ set_clock_uncertainty 0.2500 wb_clk_i
 set_input_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_in[0]}]
 set_input_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_in[1]}]
 set_input_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_in[2]}]
-set_output_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_oeb[0]}]
-set_output_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_oeb[1]}]
-set_output_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_oeb[2]}]
 set_output_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_out[0]}]
 set_output_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_out[1]}]
 set_output_delay 5.0000 -clock [get_clocks {wb_clk_i}] -add_delay [get_ports {io_out[2]}]
 ###############################################################################
 # Environment
 ###############################################################################
-set_load -pin_load 0.0334 [get_ports {io_oeb[2]}]
-set_load -pin_load 0.0334 [get_ports {io_oeb[1]}]
-set_load -pin_load 0.0334 [get_ports {io_oeb[0]}]
 set_load -pin_load 0.0334 [get_ports {io_out[2]}]
 set_load -pin_load 0.0334 [get_ports {io_out[1]}]
 set_load -pin_load 0.0334 [get_ports {io_out[0]}]
