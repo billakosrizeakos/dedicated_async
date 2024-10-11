@@ -8,19 +8,25 @@ V4 io_in[2] 0 pulse(1.8V 0 1ns 1us 1us 1us 10ms 1)
 **** begin user architecture code
 
 .TRAN 0.01us 2ms
-.PRINT TRAN format=raw file=arbiter_proj.raw v(*) i(*)
-.param aVDD = 1.8V
+.PRINT TRAN format=raw file=$::netlist_dir/arbiter_proj.raw v(*) i(*)
 .options timeint reltol=5e-3 abstol=1e-3 nonlin continuation=gmin
 
 
 
-.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include /home/vasilis/Internship/dedicated_async/dependencies/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 
-.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /home/vasilis/Internship/dedicated_async/dependencies/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /home/vasilis/Internship/dedicated_async/dependencies/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /home/vasilis/Internship/dedicated_async/dependencies/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /home/vasilis/Internship/dedicated_async/dependencies/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
 **** end user architecture code
 **.ends
 
-* expanding   symbol:  arbiter_proj.sym # of pins=8
+* expanding   symbol:  /home/vasilis/Internship/dedicated_async/xschem/arbiter_proj.sym # of pins=8
 ** sym_path: /home/vasilis/Internship/dedicated_async/xschem/arbiter_proj.sym
 .include /home/vasilis/Internship/dedicated_async/spi/lvs/arbiter_proj.spice
 .end

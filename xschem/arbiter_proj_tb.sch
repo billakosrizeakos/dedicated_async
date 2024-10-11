@@ -7,7 +7,7 @@ E {}
 B 2 400 -400 1200 0 { flags=graph y1=0 y2= 2.16 ypos1=0 ypos2=2.16
 divy=5 subdivy=1 unity=1 x1=0 x2=0.002 divx=5 subdivx=1 xlabmag=1.0 ylabmag=1.0
 dataset=-1 unitx=1 logx=0 logy=0
-node="io_in[0] io_in[1] io_in[2] io_out[0] io_out[1] io_out[2]
+node="io_in[0] io_in[1] io_in[2] io_out[0] io_out[1] io_out[2]"
 color="1 7 13 18 24 30" }
 C {devices/vsource.sym} 250 250 0 0 {name=V1 value=1.8V}
 C {devices/lab_pin.sym} 250 280 0 0 {name=p1 sig_type=std_logic lab=0}
@@ -41,8 +41,7 @@ C {devices/lab_pin.sym} 190.0 20.0 2 0 {name=p15 sig_type=std_logic lab=io_out[1
 N 150.0 -40.0 190.0 -40.0 {lab=io_out[2]}
 C {devices/lab_pin.sym} 190.0 -40.0 2 0 {name=p16 sig_type=std_logic lab=io_out[2]}
 C {devices/code_shown.sym} 0 -500 0 0 {name=SPICE only_toplevel=false value=".TRAN 0.01us 2ms
-.PRINT TRAN format=raw file=arbiter_proj.raw v(*) i(*)
-.param aVDD = 1.8V
+.PRINT TRAN format=raw file=$::netlist_dir/arbiter_proj.raw v(*) i(*)
 .options timeint reltol=5e-3 abstol=1e-3 nonlin continuation=gmin
 "}
 C {devices/code.sym} 0 -750 0 0 {name=stdcell_lib only_toplevel=true value="tcleval(.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice)"}

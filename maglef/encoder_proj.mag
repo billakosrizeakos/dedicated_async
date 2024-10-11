@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1727860809
+timestamp 1728561207
 << obsli1 >>
 rect 1104 2159 38824 37553
 << obsm1 >>
@@ -374,7 +374,7 @@ string FIXED_BBOX 0 0 40000 40000
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 877744
-string GDS_FILE /home/vasilis/Internship/dedicated_async/openlane/encoder_proj/runs/24_10_02_11_19/results/signoff/encoder_proj.magic.gds
+string GDS_FILE /home/vasilis/Internship/dedicated_async/openlane/encoder_proj/runs/24_10_10_13_52/results/signoff/encoder_proj.magic.gds
 string GDS_START 164798
 << end >>
 

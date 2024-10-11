@@ -107,8 +107,9 @@ def generate_xschem_sch_from_spice(spice_file, module, output_file):
     sch_data += f"B 2 400 -400 1200 0 {'{'} flags=graph y1=0 y2= {1.2*aVDD_voltage} ypos1=0 ypos2={1.2*aVDD_voltage}\n"
     sch_data += f"divy=5 subdivy=1 unity=1 x1=0 x2=0.002 divx=5 subdivx=1 xlabmag=1.0 ylabmag=1.0\n"
     sch_data += f"dataset=-1 unitx=1 logx=0 logy=0\n"
-    sch_data += f'node="{" ".join(pins["inputs"])} {" ".join(pins["outputs"])}\n'
-    sch_data += f'color="{" ".join(color_values)}{'" }'}\n'
+    sch_data += f'node="{" ".join(pins["inputs"])} {" ".join(pins["outputs"])}"\n'
+    sch_data += f'color="{" ".join(color_values)}" }}\n'
+
 
     pin_counter    = 1
     module_counter  = 1
@@ -167,7 +168,6 @@ def generate_xschem_sch_from_spice(spice_file, module, output_file):
     # Simulation control options
     sch_data += 'C {devices/code_shown.sym} 0 -500 0 0 {name=SPICE only_toplevel=false value="'
     sch_data += ".TRAN 0.01us 2ms\n.PRINT TRAN format=raw file=$::netlist_dir/arbiter_proj.raw v(*) i(*)\n"
-    sch_data += f".param aVDD = {aVDD_voltage}V\n"
     sch_data += ".options timeint reltol=5e-3 abstol=1e-3 nonlin continuation=gmin\n\"}\n"
 
     # Add SPICE directive to include the SPICE model

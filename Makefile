@@ -34,6 +34,7 @@ export PDKPATH?=$(PDK_ROOT)/$(PDK)
 export XSCHEM_PATH?=$(PWD)/../aVLSI-SkyWater130-2024/xschem
 export XSCHEM_LOC_PATH?=$(PWD)/xschem
 export XSCHEM_GL_PATH?=$(PWD)/verilog/gl
+export XSCHEM_SPI_PATH?=$(PWD)/netlists
 export SPICE_PATH?=$(PWD)/spi/lvs
 
 PYTHON_BIN ?= python3
@@ -466,4 +467,9 @@ endif
 
 .PHONY: run_spice_simulation
 run_spice_simulation:
-	@echo "Needs to be implemented"
+ifndef spice_netlist
+	$(error spice netlist is not set)
+endif
+	cd $(XSCHEM_PATH); xschem $(XSCHEM_LOC_PATH)/$(spice_netlist)_tb.sch --netlist --spice --netlist_filename $(XSCHEM_SPI_PATH)/$(spice_netlist)_tb.spice -q
+	cd $(XSCHEM_PATH); xschem --tcl "set SPICE xyce" $(XSCHEM_LOC_PATH)/$(spice_netlist)_tb.sch --netlist --spice --simulate
+
